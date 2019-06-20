@@ -57,55 +57,55 @@ Any developer building Cloud-Native Network Functions.  Ops engineers who deploy
 
 ### -- Factors adapted from the 12-factor methodology --
 
-### [I. Codebase](./codebase)
+### [I. Codebase](./codebase.md)
 One codebase tracked in revision control, many deploys
 
-### [II. Dependencies](./dependencies)
+### [II. Dependencies](./dependencies.md)
 Explicitly declare and isolate dependencies
 
-### [III. Config](./config)
+### [III. Config](./config.md)
 Store config in the environment
 
-### [IV. Backing services](./backing-services)
+### [IV. Backing services](./backing-services.md)
 Treat backing cloud-native services as attached resources
 
-### [V. Build, release, run](./build-release-run)
+### [V. Build, release, run](./build-release-run.md)
 Strictly separate build and run stages
 
-### [VI. Processes](./processes)
+### [VI. Processes](./processes.md)
 Execute the app as one or more stateless processes
 
-### [VII. Port binding](./port-binding)
+### [VII. Port binding](./port-binding.md)
 Not recommended in X-factor CNFs. However, if necessary, export services via port binding
 
-### [VIII. Concurrency](./concurrency)
+### [VIII. Concurrency](./concurrency.md)
 Scale out via the process model
 
-### [IX. Disposability](./disposability)
+### [IX. Disposability](./disposability.md)
 Maximize robustness with fast startup and graceful shutdown
 
-### [X. Dev/prod parity](./dev-prod-parity)
+### [X. Dev/prod parity](./dev-prod-parity.md)
 Keep development, staging, and production as similar as possible
 
-### [XI. Logs](./logs)
+### [XI. Logs](./logs.md)
 Treat logs as event streams
 
-### [XII. Admin processes](./admin-processes)
+### [XII. Admin processes](./admin-processes.md)
 Run admin/management tasks as one-off processes
 
 ### -- Factors unique to X-CNFs --
 
-### [XIII. Do not require kernel modifications or modules](./process-containers)
+### [XIII. Do not require kernel modifications or modules](./process-containers.md)
 Run in an unmodified OS environment, without kernel modifications or custom modules
 
-### [XIV. Payloads](./payloads)
+### [XIV. Payloads](./payloads.md)
 Explicitly state payload types consumed and produced
 
-### [XV. Interface mechanisms](./mechanisms)
+### [XV. Interface mechanisms](./mechanisms.md)
 List mechanisms supported in order of preference
 
-### [XVI. Bind by payload and mechanism](./bind-payload-mechanism)
+### [XVI. Bind by payload and mechanism](./bind-payload-mechanism.md)
 Bind to other CNFs by payload and mechanism rather than by upstream or downstream CNF type
 
-### [XVII. Metrics](./metrics-as-event-streams)
+### [XVII. Metrics](./metrics-as-event-streams.md)
 Treat metrics as event streams
